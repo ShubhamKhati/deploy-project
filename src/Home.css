@@ -1,0 +1,26 @@
+.home__image{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;  
+    z-index: -1;
+    margin-bottom: -150px;
+}
+.home{
+    
+    max-width: 1200px;
+    margin: auto;
+}
+.rowone{
+    display: flex;
+}
+.rowtwo{
+    display: flex;
+}
+.rowthree{
+    display: flex;
+}
+
+  

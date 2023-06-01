@@ -1,0 +1,15 @@
+.checkout__ad{
+    width: 100%;
+}
+.checkout{
+    padding: 15px;
+    background-color: white;
+}
+.checkout__title{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.checkout__title>p{
+    margin-top: 5px;
+    margin-left: 5px;
+}

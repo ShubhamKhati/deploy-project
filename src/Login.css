@@ -1,0 +1,57 @@
+
+.containerr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+.login-container{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid gainsboro;
+    width: 300px;
+    margin-top:10px;
+    padding: 15px;
+    position: absolute;
+    top: 80px;
+    border-radius: 5px;
+}
+.login-container>form>input{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.login-container>form>button{
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.login-container>form>h5{
+    margin-top: 10px;
+}
+.image{
+    position:absolute;
+    top: 20px;
+}
+.sign-in-button{
+    background-color: #f0c14bd3;
+    border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 5px;
+}
+.login-container>form>p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.amazon__logo{
+    width: 100px;
+    margin: 5px;
+    padding-top: 15px;
+    margin-left: 7px;
+    cursor: pointer;
+}
