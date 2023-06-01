@@ -45,4 +45,7 @@
     .titleOfProduct{
         font-size: 12px;
     }
+    .container{
+        width: 82%;
+    }
   }
