@@ -40,3 +40,9 @@
 .productImgAndBtn > button:hover{
     background-color: #f0c14bd3;
 }
+@media (max-width: 600px) {
+    /* CSS rules for screens up to 600px wide */
+    .titleOfProduct{
+        font-size: 12px;
+    }
+  }

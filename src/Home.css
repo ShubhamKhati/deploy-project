@@ -23,4 +23,9 @@
     display: flex;
 }
 
-  
+@media (max-width: 600px) {
+    /* CSS rules for screens up to 600px wide */
+    .rowtwo{
+        flex-direction: column;
+    }
+    }
