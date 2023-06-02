@@ -28,4 +28,7 @@
     .rowtwo{
         flex-direction: column;
     }
+    .home__image{
+        margin-bottom: -80px;
+    }
     }
