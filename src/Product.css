@@ -30,15 +30,16 @@
     flex-direction: column;
     align-items: center;
 }
-.productImgAndBtn >button{
+.addToBasketButton{
     padding: 5px;
     border-radius: 5px;
-    background-color: #f0c14b;
+    background-color: #f0c14b !important;
     border-color: #a88734 #9c7e31 #846a29;
     cursor: pointer;
 }
-.productImgAndBtn > button:hover{
-    background-color: #f0c14bd3;
+.addToBasketButton:hover{
+    cursor: pointer;
+    background-color: #f0c14bd3 !important;
 }
 @media (max-width: 600px) {
     /* CSS rules for screens up to 600px wide */

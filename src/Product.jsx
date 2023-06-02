@@ -1,6 +1,7 @@
 import React from 'react'
 import './Product.css'
 import { useStateValue } from './StateProvider'
+import { Link } from 'react-router-dom';
 
 function Product({id,title,image,price,rating}) {
    
@@ -35,7 +36,10 @@ function Product({id,title,image,price,rating}) {
          </div>
          <div className='productImgAndBtn'>
             <img src={image} alt="" />
-            <button onClick={addToBasket}>Add to Basket</button>
+            <Link to={'/checkout'}>
+                <button className='addToBasketButton'/*onClick={addToBasket}*/>Add to Basket</button>
+            </Link>
+            
          </div>
       </div>
     </div>
